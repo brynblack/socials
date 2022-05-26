@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brynley's Socials!</title>
+        <link rel="icon" href="images/reddit.svg" type="image/x-icon">
+        <style>
+            @font-face {
+                font-family: "Hack";
+                src: url("./fonts/Hack-Regular.ttf");
+            }
+            body {
+                margin: 0;
+
+                background-color: #322f32;
+            }
+            .center-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                height: 100vh;
+            }
+            .socials-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                flex: 0 0 8em;
+                padding: 0.75em;
+                border-radius: 1em;
+
+                background-color: #ffffff;
+            }
+            .social {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 0.75em;
+                border-radius: 1em;
+
+                text-decoration: none;
+                font-family: "Hack";
+
+                color: #000000;
+
+                transition: background-color 150ms ease, color 150ms ease-in-out;
+            }
+            .social-image {
+                height: 2em;
+            }
+            .social:hover {
+                background-color: #000000;
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center-container">
+            <div class="socials-box">
+                <a class="social" href="https://github.com/brynblack">
+                    <img class="social-image" src="images/github.svg"/>
+                    GitHub
+                </a>
+                <a class="social" href="https://reddit.com/u/brynblack">
+                    <img class="social-image" src="images/reddit.svg"/>
+                    Reddit
+                </a>
+                <a class="social" href="https://steamcommunity.com/id/brynblack">
+                    <img class="social-image" src="images/steam.svg"/>
+                    Steam
+                </a>
+                <a class="social" href="https://twitch.tv/brynblack">
+                    <img class="social-image" src="images/twitch.svg"/>
+                    Twitch
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
