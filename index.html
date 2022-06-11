@@ -1,91 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Brynley's Socials!</title>
-        <link rel="icon" href="images/reddit.svg" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            @font-face {
-                font-family: "Hack";
-                src: url("fonts/Hack-Regular.ttf");
-            }
-            body {
-                margin: 0;
-
-                background-color: #322f32;
-            }
-            .center-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                height: 100vh;
-            }
-            .socials-box {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-
-                height: 24em;
-
-                flex: 0 0 10em;
-                padding: 0.75em;
-                border-radius: 1em;
-
-                background-color: #ffffff;
-            }
-            .social {
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-
-                padding: 0.75em;
-                border-radius: 1em;
-
-                text-decoration: none;
-                font-family: "Hack";
-
-                color: #000000;
-
-                transition: background-color 150ms ease, color 150ms ease-in-out;
-            }
-            .social-image {
-                height: 2em;
-            }
-            .social:hover {
-                background-color: #000000;
-                color: #ffffff;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="center-container">
-            <div class="socials-box">
-                <a class="social" href="https://github.com/brynblack">
-                    <img class="social-image" src="images/github.svg">
-                    GitHub
-                </a>
-                <a class="social" href="https://reddit.com/u/brynblack">
-                    <img class="social-image" src="images/reddit.svg">
-                    Reddit
-                </a>
-                <a class="social" href="https://open.spotify.com/user/m02j6i534xcqsrssq2r63m3tl">
-                    <img class="social-image" src="images/spotify.svg">
-                    Spotify
-                </a>
-                <a class="social" href="https://steamcommunity.com/id/brynblack">
-                    <img class="social-image" src="images/steam.svg">
-                    Steam
-                </a>
-                <a class="social" href="https://twitch.tv/brynblack">
-                    <img class="social-image" src="images/twitch.svg">
-                    Twitch
-                </a>
-                <a class="social" href="https://www.youtube.com/channel/UC2Opq0nr7VzgibyOosR1cPQ">
-                    <img class="social-image" src="images/youtube.svg">
-                    YouTube
-                </a>
-            </div>
-        </div>
-    </body>
-</html>
+<link rel="icon" href="images/trans_flag.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @font-face {
+    font-family: 'Hack';
+    src: url('fonts/Hack-Regular.ttf');
+  }
+  body {
+    align-items: center;
+    background-color: #322f32;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    margin: 0;
+    min-width: 100vw;
+  }
+  div {
+    background-color: #fff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em;
+  }
+  a {
+    align-items: center;
+    border-radius: 1em;
+    color: #000;
+    display: flex;
+    font-family: 'Hack';
+    gap: 1em;
+    justify-content: left;
+    padding: 0.75em;
+    text-decoration: none;
+    transition-duration: .1s;
+  }
+  a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  img {
+    height: 2em;
+    object-fit: contain;
+    width: 2em;
+  }
+</style>
+<title>Brynley's Socials!</title>
+<div>
+  <a href="https://github.com/brynblack">
+    <img src="images/github.svg" alt="GitHub Logo">
+    GitHub
+  </a>
+  <a href="https://reddit.com/u/brynblack">
+    <img src="images/reddit.svg" alt="Reddit Logo">
+    Reddit
+  </a>
+  <a href="https://open.spotify.com/user/m02j6i534xcqsrssq2r63m3tl">
+    <img src="images/spotify.svg" alt="Spotify Logo">
+    Spotify
+  </a>
+  <a href="https://steamcommunity.com/id/brynblack">
+    <img src="images/steam.svg" alt="Steam Logo">
+    Steam
+  </a>
+  <a href="https://twitch.tv/brynblack">
+    <img src="images/twitch.svg" alt="Twitch Logo">
+    Twitch
+  </a>
+  <a href="https://www.youtube.com/channel/UC2Opq0nr7VzgibyOosR1cPQ">
+    <img src="images/youtube.svg" alt="YouTube Logo">
+    YouTube
+  </a>
+</div>
